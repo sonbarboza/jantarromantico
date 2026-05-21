@@ -14,7 +14,6 @@ body{
   color:#fff;
   position:relative;
 }
-
 .particles::before,
 .particles::after{
   content:"";
@@ -26,14 +25,16 @@ body{
   background-image:
     radial-gradient(#d4b06a 1px, transparent 1px);
   background-size:80px 80px;
-  opacity:0.12;
-  animation:floatParticles 30s linear infinite;
   pointer-events:none;
+}
+.particles::before{
+  opacity:0.12;
+  animation:floatParticles 12s linear infinite;
 }
 
 .particles::after{
-  animation-direction:reverse;
   opacity:0.08;
+  animation:floatParticles 18s linear infinite reverse;
 }
 
 @keyframes floatParticles{
