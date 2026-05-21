@@ -16,7 +16,23 @@ const foodOptions = [
       }
     ]
   },
-
+  {
+    name: "🥩 Steakhouse",
+    restaurants: [
+      {
+        name: "Outback Steakhouse - São Carlos",
+        desc: "A experiência premium da noite."
+      },
+      {
+        name: "Billy's BBQ - São Carlos",
+        desc: "Carnes incríveis e clima intimista."
+      },
+      {
+        name: "Barone Grill - São Carlos",
+        desc: "Elegância e sabor em cada detalhe."
+      }
+    ]
+  },
   {
     name: "🍔 Hambúrguer Gourmet",
     restaurants: [
@@ -34,7 +50,7 @@ const foodOptions = [
       }
     ]
   },
-
+  
   {
     name: "🌭 Cachorro Quente Gourmet",
     restaurants: [
@@ -53,23 +69,7 @@ const foodOptions = [
     ]
   },
 
-  {
-    name: "🥩 Steakhouse",
-    restaurants: [
-      {
-        name: "Outback Steakhouse - São Carlos",
-        desc: "A experiência premium da noite."
-      },
-      {
-        name: "Billy's BBQ - São Carlos",
-        desc: "Carnes incríveis e clima intimista."
-      },
-      {
-        name: "Barone Grill - São Carlos",
-        desc: "Elegância e sabor em cada detalhe."
-      }
-    ]
-  },
+
 
   {
     name: "🍝 Italiano",
