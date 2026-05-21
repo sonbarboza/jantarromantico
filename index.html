@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Noite Especial ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="particles"></div>
+
+<audio id="bgMusic" loop>
+  <source src="https://cdn.pixabay.com/audio/2022/10/25/audio_946f8d8f2d.mp3" type="audio/mp3">
+</audio>
+
+<button id="musicToggle">🎵</button>
+
+<section class="hero active">
+  <div class="glass hero-box">
+    <h1>Essa noite foi preparada especialmente para você, Fernanda ❤️</h1>
+    <p>
+      Hoje você não vai apenas escolher um jantar...
+      <br>
+      Você vai descobrir uma experiência.
+    </p>
+
+    <button class="primary-btn" id="startBtn">
+      Começar a surpresa ✨
+    </button>
+  </div>
+</section>
+
+<section class="food-section hidden">
+  <div class="section-title">
+    <h2>Escolha uma experiência gastronômica</h2>
+    <p>Toque em um painel para revelar ✨</p>
+  </div>
+
+  <div class="card-grid" id="foodGrid"></div>
+</section>
+
+<section class="restaurant-section hidden">
+  <div class="section-title">
+    <h2 id="restaurantTitle"></h2>
+    <p>Agora escolha o destino da noite ❤️</p>
+  </div>
+
+  <div class="card-grid" id="restaurantGrid"></div>
+</section>
+
+<section class="final-section hidden">
+  <div class="glass final-box">
+    <h2>Então se arruma...</h2>
+    <p>
+      Porque nossa noite já começou ✨
+    </p>
+
+    <div class="voucher">
+      🎁 Vale oficial para sobremesa + combo de beijos bônus desbloqueado 😘
+    </div>
+
+    <button class="primary-btn" id="revealBtn">
+      Ver destino da noite ✨
+    </button>
+
+    <div class="destination hidden" id="destination"></div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
